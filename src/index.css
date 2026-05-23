@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-frc-yellow: #FFD600;
+  --color-frc-yellow-dim: #b8960a;
+  --color-frc-green: #22c55e;
+  --color-frc-red: #ef4444;
+  --color-frc-navy: #0a0e1a;
+  --color-frc-charcoal: #131825;
+  --color-frc-slate: #1c2236;
+  --color-frc-border: #2a3050;
+  --color-frc-text: #e2e8f0;
+  --color-frc-muted: #94a3b8;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-frc-navy);
+  color: var(--color-frc-text);
+  font-family: var(--font-sans);
+}
+
+.glass {
+  background: rgba(19, 24, 37, 0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(42, 48, 80, 0.5);
+}
+
+.glass-hover:hover {
+  background: rgba(19, 24, 37, 0.8);
+  border-color: rgba(255, 214, 0, 0.3);
+}
+
+.glow-yellow {
+  box-shadow: 0 0 20px rgba(255, 214, 0, 0.15);
+}
+
+.glow-yellow-strong {
+  box-shadow: 0 0 30px rgba(255, 214, 0, 0.25);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-frc-navy);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-frc-border);
+  border-radius: 3px;
+}
