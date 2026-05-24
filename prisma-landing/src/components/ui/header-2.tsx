@@ -102,7 +102,7 @@ export function RobotifyHeader() {
             style={{ background: FRC_BLUE, color: '#fff' }}
             asChild
           >
-            <a href="#launch">Launch App</a>
+            <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer">Launch App</a>
           </Button>
         </div>
 
@@ -150,7 +150,7 @@ export function RobotifyHeader() {
               style={{ background: FRC_BLUE, color: '#fff' }}
               asChild
             >
-              <a href="#launch" onClick={() => setOpen(false)}>Launch App</a>
+              <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>Launch App</a>
             </Button>
           </div>
         </div>

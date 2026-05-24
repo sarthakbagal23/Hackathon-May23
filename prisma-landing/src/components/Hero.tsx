@@ -4,7 +4,7 @@ import { WordsPullUp } from './WordsPullUp';
 
 const HERO_VIDEO_URL = 'https://www.youtube.com/embed/FGxDIam5cf4';
 
-export const APP_URL = 'http://localhost:5173';
+export const APP_URL = 'http://localhost:3000';
 
 const customEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 

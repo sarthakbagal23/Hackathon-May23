@@ -102,7 +102,7 @@ export function RobotifyPricing() {
               </ul>
 
               <Button className="w-full" variant="outline" asChild>
-                <a href="#launch">Launch the app</a>
+                <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer">Launch the app</a>
               </Button>
             </div>
 
@@ -145,7 +145,7 @@ export function RobotifyPricing() {
               </ul>
 
               <Button className="w-full" asChild>
-                <a href="#launch">Get Scout Pro</a>
+                <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer">Get Scout Pro</a>
               </Button>
             </div>
           </div>
