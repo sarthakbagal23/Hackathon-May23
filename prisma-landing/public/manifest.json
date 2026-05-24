@@ -1,0 +1,30 @@
+{
+  "name": "Robotify — AI Mentor for FRC Teams",
+  "short_name": "Robotify",
+  "description": "The AI mentor every rookie FRC team needs. Rules Q&A, strategy builder, WPILib code, scouting analysis.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#006DB7",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["education", "productivity"]
+}
