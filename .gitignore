@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+.next/
+dist/
+dist-ssr/
+
+# Environment
+.env.local
+.env.production
+.env.development
+.env.test
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Misc
+*.log
+lerna-debug.log
+*.pem
